@@ -32,3 +32,13 @@ class Player(object):
 
 	# Position of player (relatively unimportant but could be used for statistical purposes)
 	position = ""
+
+	# Every player can pass
+	passing_speed = 50
+	passing_accuracy = 50
+
+	# Every player has a blocking factor
+	blocking_accuracy = 50
+
+	# How fast is the player in terms of skating past other players?
+	speed = 50
