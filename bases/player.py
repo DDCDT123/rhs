@@ -42,3 +42,6 @@ class Player(object):
 
 	# How fast is the player in terms of skating past other players?
 	speed = 50
+
+	# Player's name
+	name = ""
