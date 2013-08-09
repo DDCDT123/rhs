@@ -1,3 +1,8 @@
+"""
+This class covers forwards and defensemen.
+
+The attributes are from NHL 13's stats system with some slight additions to make generating a weight easier.
+"""
 from bases.player import Player as PB
 
 class Skater(PB):
